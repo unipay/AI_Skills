@@ -1,0 +1,22 @@
+{
+  "name": "unipay",
+  "owner": {
+    "name": "UniPAY"
+  },
+  "metadata": {
+    "description": "UniPAY skills for AI coding assistants",
+    "version": "0.1.0"
+  },
+  "plugins": [
+    {
+      "name": "unipay",
+      "description": "Teaches your AI coding assistant to integrate UniPAY payments: authentication, orders and the hosted payment page, callbacks, refunds, preauthorization, saved cards and subscriptions.",
+      "version": "0.1.0",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/unipay-integration"
+      ]
+    }
+  ]
+}
